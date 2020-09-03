@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Data Driven Basics]" parallel="tests">
+  <parameter name="runType" value="docker"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="3" verbose="3" name="Bank Automation Testing for FireFox(failed)" parallel="tests">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="tsd.TSD_Test">
+        <methods>
+          <include name="endReport"/>
+          <include name="reportSetUp"/>
+          <include name="scriptSetup"/>
+          <include name="setUpTSDClass"/>
+          <include name="endRunType"/>
+          <include name="updateAddress"/>
+          <include name="endScript"/>
+          <include name="runTypeSetup"/>
+        </methods>
+      </class> <!-- tsd.TSD_Test -->
+    </classes>
+  </test> <!-- Bank Automation Testing for FireFox(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->

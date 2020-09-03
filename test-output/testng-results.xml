@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="42370" started-at="2020-09-03T19:40:37Z" finished-at="2020-09-03T19:41:20Z">
+    <groups>
+    </groups>
+    <test name="Bank Automation Testing for Chrome" duration-ms="27767" started-at="2020-09-03T19:40:37Z" finished-at="2020-09-03T19:41:05Z">
+      <class name="tsd.TSD_Bank">
+        <test-method status="PASS" signature="scriptSetup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tsd.TSD_Bank@68f4865]" name="scriptSetup" is-config="true" duration-ms="3401" started-at="2020-09-03T19:40:37Z" finished-at="2020-09-03T19:40:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tsd.TSD_Bank.addCustomer() throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scriptSetup -->
+        <test-method status="PASS" signature="setUpTSDClass()[pri:0, instance:tsd.TSD_Bank@68f4865]" name="setUpTSDClass" is-config="true" duration-ms="25" started-at="2020-09-03T19:40:41Z" finished-at="2020-09-03T19:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTSDClass -->
+        <test-method status="PASS" signature="addCustomer()[pri:0, instance:tsd.TSD_Bank@68f4865]" name="addCustomer" duration-ms="10720" started-at="2020-09-03T19:40:41Z" finished-at="2020-09-03T19:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="endScript(org.testng.ITestResult)[pri:0, instance:tsd.TSD_Bank@68f4865]" name="endScript" is-config="true" duration-ms="308" started-at="2020-09-03T19:40:51Z" finished-at="2020-09-03T19:40:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCustomer status=SUCCESS method=TSD_Bank.addCustomer()[pri:0, instance:tsd.TSD_Bank@68f4865] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endScript -->
+        <test-method status="PASS" signature="scriptSetup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tsd.TSD_Bank@68f4865]" name="scriptSetup" is-config="true" duration-ms="2548" started-at="2020-09-03T19:40:52Z" finished-at="2020-09-03T19:40:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tsd.TSD_Bank.deleteCustomer() throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scriptSetup -->
+        <test-method status="PASS" signature="setUpTSDClass()[pri:0, instance:tsd.TSD_Bank@68f4865]" name="setUpTSDClass" is-config="true" duration-ms="1" started-at="2020-09-03T19:40:54Z" finished-at="2020-09-03T19:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTSDClass -->
+        <test-method status="PASS" signature="deleteCustomer()[pri:0, instance:tsd.TSD_Bank@68f4865]" name="deleteCustomer" duration-ms="10625" started-at="2020-09-03T19:40:54Z" finished-at="2020-09-03T19:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="endScript(org.testng.ITestResult)[pri:0, instance:tsd.TSD_Bank@68f4865]" name="endScript" is-config="true" duration-ms="112" started-at="2020-09-03T19:41:05Z" finished-at="2020-09-03T19:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCustomer status=SUCCESS method=TSD_Bank.deleteCustomer()[pri:0, instance:tsd.TSD_Bank@68f4865] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endScript -->
+      </class> <!-- tsd.TSD_Bank -->
+    </test> <!-- Bank Automation Testing for Chrome -->
+    <test name="Bank Automation Testing for FireFox" duration-ms="14563" started-at="2020-09-03T19:41:05Z" finished-at="2020-09-03T19:41:20Z">
+      <class name="tsd.TSD_Test">
+        <test-method status="PASS" signature="reportSetUp()[pri:0, instance:tsd.TSD_Test@6853425f]" name="reportSetUp" is-config="true" duration-ms="136" started-at="2020-09-03T19:40:33Z" description="Extent Report Init" finished-at="2020-09-03T19:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetUp -->
+        <test-method status="PASS" signature="runTypeSetup(java.lang.String)[pri:0, instance:tsd.TSD_Test@6853425f]" name="runTypeSetup" is-config="true" duration-ms="4008" started-at="2020-09-03T19:40:33Z" finished-at="2020-09-03T19:40:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTypeSetup -->
+        <test-method status="PASS" signature="scriptSetup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tsd.TSD_Test@6853425f]" name="scriptSetup" is-config="true" duration-ms="3792" started-at="2020-09-03T19:41:05Z" finished-at="2020-09-03T19:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tsd.TSD_Test.updateAddress() throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scriptSetup -->
+        <test-method status="PASS" signature="setUpTSDClass()[pri:0, instance:tsd.TSD_Test@6853425f]" name="setUpTSDClass" is-config="true" duration-ms="1" started-at="2020-09-03T19:41:09Z" finished-at="2020-09-03T19:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTSDClass -->
+        <test-method status="PASS" signature="updateAddress()[pri:0, instance:tsd.TSD_Test@6853425f]" name="updateAddress" duration-ms="10663" started-at="2020-09-03T19:41:09Z" finished-at="2020-09-03T19:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+        <test-method status="PASS" signature="endScript(org.testng.ITestResult)[pri:0, instance:tsd.TSD_Test@6853425f]" name="endScript" is-config="true" duration-ms="105" started-at="2020-09-03T19:41:19Z" finished-at="2020-09-03T19:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateAddress status=SUCCESS method=TSD_Test.updateAddress()[pri:0, instance:tsd.TSD_Test@6853425f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endScript -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tsd.TSD_Test@6853425f]" name="endReport" is-config="true" duration-ms="38" started-at="2020-09-03T19:41:20Z" finished-at="2020-09-03T19:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endRunType(java.lang.String)[pri:0, instance:tsd.TSD_Test@6853425f]" name="endRunType" is-config="true" duration-ms="4003" started-at="2020-09-03T19:41:20Z" finished-at="2020-09-03T19:41:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endRunType -->
+      </class> <!-- tsd.TSD_Test -->
+    </test> <!-- Bank Automation Testing for FireFox -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>

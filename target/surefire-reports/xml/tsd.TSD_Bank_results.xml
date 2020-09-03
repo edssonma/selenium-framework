@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bank Automation Testing for Chrome"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.436">
+  <properties />
+  
+  
+            <testcase name="deleteCustomer" time="10.946" classname="tsd.TSD_Bank" />
+                <testcase name="addCustomer" time="12.490" classname="tsd.TSD_Bank" />
+      
+</testsuite>

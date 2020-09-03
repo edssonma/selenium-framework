@@ -1,0 +1,11 @@
+Download Docker HUB: docker pull selenium/hub
+Initialize Docker HUB: docker run -d -p 4444:4444 --name selenium-hub -P selenium/hub:2.53.1
+
+Download Node Chrome Debug: docker pull selenium/node-chrome-debug
+Starting Chrome Node: docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug:2.53.1
+
+Download Node Firefox Debug: docker pull selenium/node-firefox-debug
+Starting Chrome Node: docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug:2.53.1
+
+
+

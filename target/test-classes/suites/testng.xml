@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics" thread-count="3" verbose="3">
+
+	<parameter name="runType" value="docker"></parameter>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="listeners.CustomListeners" />
+
+	</listeners>
+
+	<test name="Bank Automation Testing for Chrome">
+		<parameter name="browserType" value="chrome"></parameter>
+		<classes>
+			<class name="tsd.TSD_Bank" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Bank Automation Testing for FireFox">
+		<parameter name="browserType" value="firefox"></parameter>
+		<classes>
+			<class name="tsd.TSD_Test" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

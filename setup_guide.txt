@@ -1,0 +1,27 @@
+TestBase.java
+*scriptSetup()
+	// Running with selenium grid on docker
+	driver = setUpDriver(browser, SELENIUM_GRID, DOCKER);
+
+	// Running with selenium grid on browserstack
+	driver = setUpDriver(browser, SELENIUM_GRID, BROWSERSTACK);
+
+	// Running locally, the third parameter does not matter in this way, just the second
+	driver = setUpDriver(browser, LOCAL, DOCKER);	
+
+** To run on docker, the machine need to install docker desktop and then pull the following images:
+
+- Download Docker HUB:              docker pull selenium/hub
+- Download Node Chrome Debug:       docker pull selenium/node-chrome-debug
+- Download Node Firefox Debug:      docker pull selenium/node-firefox-debug
+//---------------------------------------------------------------------------------------------
+
+suites/testng.xml
+runtype: could be 'docker' if it's installed in the machine or 'local' if not
+browserType: could be 'chrome','firefox' or 'none' to set 'chrome' as default (is a must)
+
+Config.properties
+AUTOMATE_USERNAME: username from browserstack account
+AUTOMATE_ACCESS_KEY: access key from browserstack account
+
+

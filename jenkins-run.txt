@@ -1,0 +1,1 @@
+java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war
